@@ -7,9 +7,11 @@
 //
 
 #include <stdio.h>
+#include "ETG_FIFO.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
+    ETG_FIFO_TEST();
     printf("Hello, World!\n");
     return 0;
 }
